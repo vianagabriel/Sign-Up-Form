@@ -1,0 +1,82 @@
+<!-- Doctype é a estrutura básica da minha página Html -->
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up Form</title>
+  <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+  <!-- Main é aonde vou deixar meu conteúdo pricipal  -->
+  <main>
+  <!-- h1 É o titulo da página -->
+  <h1>Creat Account</h1>
+  <!--a Div com a classe socia-media está comportando as imagens dos ícones que utilizei-->
+    <div class="social-media">
+    <!-- Os ícones vão estar dentro da  tag a, elas vão estar como link, mas nesse caso não levaram pra lugar nenhum -->
+      <a href="#">
+    <!-- São as imagens -->
+        <img src="images/facebook.png" alt="ícone do facebook">
+
+        <img src="images/google.png" alt="ícone do google">
+
+        <img src="images/linkdlin.png" alt="ícone  do linkedlin">
+
+      </a>
+
+    </div>
+  <!-- Criei essa div com classe alternative dentro dela vai ter um <span>or</span> -->
+    <div class="alternative">
+  <!-- <span> é um conteiner generico em linha para conteúdo fraseado, 
+    que não representa nada por natureza. 
+    Ele pode ser usado para agrupar elementos para fins de estilo (usando os atributos class ou id ) -->
+    <span>OR</span>
+    
+    </div>
+    <!-- Nessa parte do código vou estou criando meu formulário com a tag usando as tags (form, label para acessibiliodade e o input.) -->
+    <form action="">
+    <!-- Primeiro input -->
+      <label for="name">
+
+        <span>Name</span>
+
+        <input type="text" name="name" id="name" placeholder="name">
+
+      </label>
+    <!-- segundo input -->
+      <label for="email">
+
+        <span>E-mail</span>
+
+        <input type="email" name="email" id="email" placeholder="e-mail">
+
+      </label>
+    <!-- Terceiro input -->
+      <label for="password">
+    <!-- <span> é um conteiner generico em linha para conteúdo fraseado, 
+      que não representa nada por natureza.
+       Ele pode ser usado para agrupar elementos para fins de estilo (usando os atributos class ou id ) -->
+        <span>Password</span>
+
+        <input type="password" name="password" id="password" placeholder="password">
+
+      </label>
+    <!-- Esse ultimo input é do tipo Submit, é um  botão  -->
+      <input  type="submit" value="Sign Up">
+
+    </form>
+    
+  </main>
+    <!-- Bom aqui usei a tag section que serve basicamente para criar uma sessão -->
+ <section class="images">
+   
+   <img src="images/mobile.svg" alt="">
+  <!-- A div é uma tag genérica, que nesse caso vai servir para criar um circulo na página, com css-->
+  <div class="circle"></div>
+  
+</section>
+
+</body>
+</html>
