@@ -13,21 +13,9 @@
 <h4>As tecnologias utilizadas foram :</h4>
 
 * HTML5
-* CSS3
+* CSS3 
 
 <h3>✒️Autor</h3> 
 
 <h4> ✔️Gabriel Viana</h4> <br>
-<a href="https://www.linkedin.com/in/gabriel-viana-cunha/">Meu linkldn</a>
 
-<style>
-  a {
-    max-width:100px;
-    text-decoration:none;
-    background:#1E90FF;
-    color: #fff;
-    padding: .5rem;
-    border-radius: 3px;
-    
-  }
-</style>
