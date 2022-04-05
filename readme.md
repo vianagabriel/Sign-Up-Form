@@ -1,5 +1,7 @@
 # ✅ SIGN UP FORM
 
+<img src="./images/form.png">
+
 <h1>Sobre</h1>
 
 <h3> Esse projeto é uma página de cadastro, nele utilizei meus conhecimentos em html e css e uma página de cadastro  bem simples que permite cadastro com redes socias ou na forma tradicional com nome, email e senha.</h3> <br>
